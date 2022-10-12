@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/drawable/edit_text_background.xml" value="0.135" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/drawable/google_icon.xml" value="0.134" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/drawable/profile_background.xml" value="0.135" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/drawable/profile_head_background.xml" value="0.135" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/drawable/profile_hed_background.xml" value="0.135" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/activity_register.xml" value="0.14" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/edit_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/fragment_home.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/fragment_my_post.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/fragment_notification.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/fragment_sales_your_bike_one.xml" value="0.22" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/fragment_sales_your_bike_two.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/fragment_upload.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/fragment_upload_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/home_recycler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/my_post_recycler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/register_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/layout/sign_in_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kolmifull/AndroidStudioProjects/RecyclerView/app/src/main/res/menu/my_post_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

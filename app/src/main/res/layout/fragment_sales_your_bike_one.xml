@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SalesYourBikeOneFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's Input Bike Details"
+            android:textSize="@dimen/_22font_mdp"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20mdp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:hint="Title"
+            app:helperTextEnabled="true"
+            app:boxBackgroundColor="@android:color/darker_gray"
+            app:boxBackgroundMode="outline"
+            app:helperText="Input Your Post Title"
+            app:helperTextTextColor="#FF9800">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:background="@drawable/edit_text_background"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:hint="Description"
+            app:helperTextEnabled="true"
+            app:boxBackgroundColor="@android:color/darker_gray"
+            app:boxBackgroundMode="outline"
+            app:helperText="Input Your Post Title"
+            app:helperTextTextColor="#FF9800">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/description"
+                android:background="@drawable/edit_text_background"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10mdp"
+                    android:hint="Brand"
+                    app:helperTextEnabled="true"
+                    app:boxBackgroundColor="@android:color/darker_gray"
+                    app:boxBackgroundMode="outline"
+                    app:helperText="Input Your Post Title"
+                    app:helperTextTextColor="#FF9800">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/brand"
+                        android:background="@drawable/edit_text_background"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10mdp"
+                    android:hint="Model"
+                    app:helperTextEnabled="true"
+                    app:boxBackgroundColor="@android:color/darker_gray"
+                    app:boxBackgroundMode="outline"
+                    app:helperText="Input Your Post Title"
+                    app:helperTextTextColor="#FF9800">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/model"
+                        android:background="@drawable/edit_text_background"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10mdp"
+                    android:hint="Made Year"
+                    app:helperTextEnabled="true"
+                    app:boxBackgroundColor="@android:color/darker_gray"
+                    app:boxBackgroundMode="outline"
+                    app:helperText="Input Your Post Title"
+                    app:helperTextTextColor="#FF9800">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/madeYear"
+                        android:background="@drawable/edit_text_background"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10mdp"
+                    android:hint="Run Km"
+                    app:helperTextEnabled="true"
+                    app:boxBackgroundColor="@android:color/darker_gray"
+                    app:boxBackgroundMode="outline"
+                    app:helperText="Input Your Post Title"
+                    app:helperTextTextColor="#FF9800">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/runKm"
+                        android:background="@drawable/edit_text_background"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:hint="Additional Information"
+            app:helperTextEnabled="true"
+            app:boxBackgroundColor="@android:color/darker_gray"
+            app:boxBackgroundMode="outline"
+            app:helperText="Input Your Post Title"
+            app:helperTextTextColor="#FF9800">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/AdditionalInformation"
+                android:background="@drawable/edit_text_background"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:hint="Price"
+            app:helperTextEnabled="true"
+            app:boxBackgroundColor="@android:color/darker_gray"
+            app:boxBackgroundMode="outline"
+            app:helperText="Input Your Post Title"
+            app:helperTextTextColor="#FF9800">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"
+                android:background="@drawable/edit_text_background"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40mdp"
+            android:layout_margin="@dimen/_10mdp"
+            android:text="Next"
+            android:backgroundTint="#F44336"
+            android:id="@+id/next"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

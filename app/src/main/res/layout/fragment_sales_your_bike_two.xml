@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SalesYourBikeTwoFragment">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/description"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/brand"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/model"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/madeYear"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/runKm"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"/>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's Input Addresss"
+            android:textSize="@dimen/_22font_mdp"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20mdp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:hint="Contact Person Name"
+            app:helperTextEnabled="true"
+            app:boxBackgroundColor="@android:color/darker_gray"
+            app:boxBackgroundMode="outline"
+            app:helperText="Input Your Post Title"
+            app:helperTextTextColor="#FF9800">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contactPersonName"
+                android:background="@drawable/edit_text_background"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:hint="Contact Person Mobile"
+            app:helperTextEnabled="true"
+            app:boxBackgroundColor="@android:color/darker_gray"
+            app:boxBackgroundMode="outline"
+            app:helperText="Input Your Post Title"
+            app:helperTextTextColor="#FF9800">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/contactNumber"
+                android:background="@drawable/edit_text_background"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:hint="Contact Person Address"
+            app:helperTextEnabled="true"
+            app:boxBackgroundColor="@android:color/darker_gray"
+            app:boxBackgroundMode="outline"
+            app:helperText="Input Your Post Title"
+            app:helperTextTextColor="#FF9800">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/contactNumberTwo"
+                android:background="@drawable/edit_text_background"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200mdp"
+            android:layout_marginTop="@dimen/_20mdp">
+
+            <LinearLayout
+                android:id="@+id/pickImage"
+                android:layout_width="@dimen/_100mdp"
+                android:layout_height="@dimen/_100mdp"
+                android:background="@drawable/upload"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:id="@+id/bikeImage"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40mdp"
+            android:layout_margin="@dimen/_10mdp"
+            android:text="Submit"
+            android:backgroundTint="#F44336"
+            android:id="@+id/submit"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

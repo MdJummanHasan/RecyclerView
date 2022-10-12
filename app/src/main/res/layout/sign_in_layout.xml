@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/phoneBtn"
+        android:layout_above="@+id/gmailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50mdp"
+        android:text="Continue with Phone"
+        android:layout_margin="@dimen/_10mdp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/phone_24"
+        android:textSize="@dimen/_14font_mdp"
+        android:backgroundTint="#00BCD4"/>
+
+
+    <Button
+        android:id="@+id/gmailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50mdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_120mdp"
+        android:text="Continue with Gmail"
+        android:layout_marginStart="@dimen/_10mdp"
+        android:layout_marginEnd="@dimen/_10mdp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/google_icon"
+        android:textSize="@dimen/_14font_mdp"
+        android:backgroundTint="#eeeeee"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyPostFragment">
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="My Post"
+      android:textSize="@dimen/_22font_mdp"
+      android:textStyle="bold"
+      android:layout_centerHorizontal="true"
+      android:id="@+id/mpstText"/>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_below="@+id/mpstText"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="@dimen/_10mdp"
+       android:id="@+id/postRecycler"/>
+
+</RelativeLayout>
